@@ -1,0 +1,8 @@
+city,algorithm,community,relative_position,centroid_lat,centroid_lon,n_pois,norm_entropy,category_1,share_1,category_2,share_2,category_3,share_3,largest_positive_departure_category,largest_positive_departure
+BeiJing,LeidenRBC,5,outer west,39.7328,116.0991,988,0.606,Recreation,0.573,Education,0.159,Other services,0.054,Recreation,0.245
+ShangHai,LeidenRBC,15,outer east,30.9085,121.8854,512,0.546,Recreation,0.617,Education,0.135,Food,0.072,Recreation,0.396
+HongKong,LeidenRBC,20,inner south,22.2499,114.1881,869,0.564,Recreation,0.625,Shopping,0.094,Food,0.077,Recreation,0.311
+Moscow,LeidenRBC,8,outer west,55.6289,37.3541,4380,0.759,Recreation,0.327,Shopping,0.262,Other services,0.094,Recreation,0.102
+StPetersburg,LeidenRBC,17,outer west,60.1724,29.8336,948,0.692,Recreation,0.386,Other services,0.179,Shopping,0.168,Recreation,0.203
+Kazan,LeidenRBC,3,central,55.8271,49.1280,4257,0.778,Shopping,0.384,Food,0.129,Recreation,0.104,Shopping,0.041
+Yekaterinburg,LeidenRBC,9,outer south,56.7740,60.5159,415,0.654,Recreation,0.441,Shopping,0.234,Food,0.084,Recreation,0.243

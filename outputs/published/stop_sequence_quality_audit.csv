@@ -1,0 +1,8 @@
+﻿city,country,route_relations_considered,platform_sequence_relations,ordered_members_raw,ordered_members_unmatched,consecutive_duplicates_removed,ordered_stop_groups_retained,usable_ordered_route_relations,relations_excluded_short_sequence,relations_without_node_members,stop_position_fallback_relations,untyped_node_fallback_relations,l_space_nodes_before_gwcc,l_space_edges_before_gwcc,l_space_components_before_gwcc,l_space_nodes_removed_by_gwcc,p_space_nodes_before_gwcc,p_space_edges_before_gwcc,p_space_components_before_gwcc,p_space_nodes_removed_by_gwcc
+BeiJing,China,2086,2021,54676,983,33,53660,1989,97,27.0,25.0,13.0,10690,24428,4,8,10690,685158,4,8
+ShangHai,China,3559,3558,73239,989,38,72212,3528,31,1.0,,,18256,40713,7,23,18256,745430,7,23
+HongKong,China,1676,1556,33766,129,178,33459,1549,127,72.0,9.0,39.0,3841,8795,6,57,3841,208219,6,57
+Moscow,Russia,2321,2295,50825,6951,413,43461,2148,173,22.0,3.0,1.0,7204,14381,1,0,7204,398695,1,0
+StPetersburg,Russia,1118,1117,28949,4197,24,24728,1085,33,1.0,,,3702,7054,2,6,3702,221295,2,6
+Kazan,Russia,139,139,4101,222,4,3875,135,4,,,,720,1364,2,6,720,49727,2,6
+Yekaterinburg,Russia,230,225,5262,471,9,4782,219,11,,5.0,,723,1340,1,0,723,36913,1,0

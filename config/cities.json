@@ -1,0 +1,52 @@
+[
+  {
+    "city": "BeiJing",
+    "country": "China",
+    "city_query": "Beijing",
+    "json_file": "BeiJing_bus.json",
+    "poi_file": "BeiJing_pois.json"
+  },
+  {
+    "city": "ShangHai",
+    "country": "China",
+    "city_query": "Shanghai",
+    "json_file": "ShangHai_bus.json",
+    "poi_file": "ShangHai_pois.json"
+  },
+  {
+    "city": "HongKong",
+    "country": "China",
+    "city_query": "Hong Kong",
+    "json_file": "HongKong_bus.json",
+    "poi_file": "HongKong_pois.json"
+  },
+  {
+    "city": "Moscow",
+    "country": "Russia",
+    "city_query": "Moscow",
+    "json_file": "Москва_bus.json",
+    "poi_file": "Москва_pois.json"
+  },
+  {
+    "city": "StPetersburg",
+    "country": "Russia",
+    "city_query": "Saint Petersburg",
+    "json_file": "Санкт-Петербург_bus.json",
+    "poi_file": "Санкт-Петербург_pois.json"
+  },
+  {
+    "city": "Kazan",
+    "country": "Russia",
+    "city_query": "Kazan",
+    "json_file": "городской округ Казань_bus.json",
+    "poi_file": "городской округ Казань_pois.json"
+  },
+  {
+    "city": "Yekaterinburg",
+    "country": "Russia",
+    "city_query": "Yekaterinburg",
+    "json_file": "городской округ Екатеринбург_bus.json",
+    "poi_file": "городской округ Екатеринбург_pois.json"
+  }
+]
+

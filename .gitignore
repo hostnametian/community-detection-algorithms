@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and editors
+.venv/
+venv/
+.env
+.idea/
+.vscode/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Raw data are too large for Git and remain subject to OSM attribution.
+data/*
+!data/README.md
+
+# Generated results can exceed several gigabytes. Keep only curated tables.
+outputs/*
+!outputs/published/
+outputs/published/*
+!outputs/published/*.csv
+!outputs/published/README.md
+
+# Common generated artifacts
+*.gpickle
+*.graphml
+*.pkl
+*.pickle
+*.npz
+*.npy
+*.html
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.log
+*.tmp
