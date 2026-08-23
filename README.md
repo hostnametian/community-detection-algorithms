@@ -148,8 +148,3 @@ an installation.
 CSV files to the manuscript analyses. Absolute workstation paths have been
 removed from these public copies; numerical values are unchanged.
 
-## Citation and license
-
-Use [`CITATION.cff`](CITATION.cff) to cite this software. A reuse license has
-not yet been selected; the authors should add one before making the repository
-public.
