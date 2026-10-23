@@ -2,6 +2,8 @@
 import csv
 import json
 from pathlib import Path
+import subprocess
+import sys
 
 import matplotlib.pyplot as plt
 import networkx as nx
@@ -119,6 +121,17 @@ def main():
         _all_static_community_structures()
         pipeline.create_algorithm_fairness_table()
         pipeline.show_summary()
+        revision_scripts = Path(__file__).resolve().parent / "revision"
+        revision_output = pipeline.OUTPUT_ROOT / "revision/additional_analyses"
+        for script, source, output in [
+            ("metric_associations.py", pipeline.SUMMARY_DIR / "master_results.csv", revision_output),
+            ("plot_metric_correlations.py", revision_output / "metric_associations.csv", revision_output / "figures"),
+            ("plot_within_method_scatter.py", pipeline.SUMMARY_DIR / "master_results.csv", revision_output / "figures"),
+        ]:
+            subprocess.run(
+                [sys.executable, str(revision_scripts / script), "--input", str(source), "--output-dir", str(output)],
+                check=True,
+            )
         pipeline.analyze_metric_independence(cities=cities, algorithms=pipeline.ALGORITHMS)
         pipeline.run_spatial_compactness_comparison(cities=cities, algorithms=pipeline.ALGORITHMS)
         pipeline.analyze_scale_sensitivity(cities=cities, algorithms=pipeline.ALGORITHMS)

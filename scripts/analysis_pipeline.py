@@ -567,7 +567,7 @@ class PTNGraphBuilder:
         print(f"  [boundary] {self.cn}, {self.co}")
         try:
             cache_name = f"{self.city_query.replace(' ', '_')}_{self.co}_boundary.geojson"
-            input_cache_path = CODE_ROOT / "输入缓存" / "城市边界" / cache_name
+            input_cache_path = Path(os.environ.get("PTN_BOUNDARY_ROOT", CODE_ROOT / "输入缓存" / "城市边界")) / cache_name
             output_cache_path = OUTPUT_ROOT / "threshold_sensitivity_output" / "boundary_cache" / cache_name
             if input_cache_path.exists():
                 gdf = gpd.read_file(input_cache_path)

@@ -12,7 +12,7 @@ REPOSITORY_ROOT = Path(__file__).resolve().parent.parent
 
 def check_python_syntax() -> int:
     """Compile source text in memory so repository checks leave no cache files."""
-    scripts = sorted((REPOSITORY_ROOT / "scripts").glob("*.py"))
+    scripts = sorted((REPOSITORY_ROOT / "scripts").rglob("*.py"))
     for path in scripts:
         source = path.read_text(encoding="utf-8")
         compile(source, str(path), "exec")

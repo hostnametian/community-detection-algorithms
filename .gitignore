@@ -43,3 +43,14 @@ outputs/published/*
 *.tiff
 *.log
 *.tmp
+
+# Manuscripts, response letters and review archives stay outside the code repository.
+*.tex
+*.bib
+*.pdf
+*.doc
+*.docx
+*.odt
+*.zip
+*.tar
+*.tar.gz
