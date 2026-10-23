@@ -2,7 +2,7 @@
 
 Reproducible analysis code and compact published outputs for the manuscript
 **“Bus-network regionalization across seven cities: effects of graph
-representation and community-detection method”**
+representation and community-detection method”**.
 
 The workflow compares six community-detection methods (Infomap, LeidenRBC,
 DCSBM, GeoLP, Spinglass, and DirLou) on three directed weighted public-

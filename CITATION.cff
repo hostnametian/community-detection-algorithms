@@ -4,10 +4,7 @@ title: "Code for bus-network regionalization across seven cities"
 type: software
 version: 1.0.0
 authors:
-  - family-names: Gao
-    given-names: Tian
-  - family-names: Blekanov
-    given-names: Ivan
+  - name: "Anonymous Authors"
 abstract: >-
   Reproducible code for comparing six community-detection methods across
   Endpoint, L-space, and P-space public-transport network representations in
