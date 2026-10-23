@@ -18,7 +18,6 @@ cities. The code version used for the manuscript is `ceus_v3`.
 ├── outputs/
 │   └── published/          Compact CSV results reported in the manuscript
 ├── scripts/                Numbered analysis workflow and shared pipeline
-├── CITATION.cff            Software citation metadata
 ├── environment.yml         Reproducible Conda environment
 └── Makefile                Common validation and analysis commands
 ```
